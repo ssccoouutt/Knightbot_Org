@@ -32,7 +32,7 @@ async function autotypingCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363404186001130@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterName: 'LEE TECHBot MD',
                         serverMessageId: -1
                     }
                 }
@@ -63,7 +63,7 @@ async function autotypingCommand(sock, chatId, message) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '120363404186001130@newsletter',
-                            newsletterName: 'KnightBot MD',
+                            newsletterName: 'LEE TECHBot MD',
                             serverMessageId: -1
                         }
                     }
@@ -86,7 +86,7 @@ async function autotypingCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363404186001130@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterName: 'LEE TECHBot MD',
                     serverMessageId: -1
                 }
             }
@@ -101,7 +101,7 @@ async function autotypingCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363404186001130@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterName: 'LEE TECHBot MD',
                     serverMessageId: -1
                 }
             }

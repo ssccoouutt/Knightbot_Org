@@ -32,7 +32,7 @@ async function autoreadCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363404186001130@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterName: 'LEE TECHBot MD',
                         serverMessageId: -1
                     }
                 }
@@ -63,7 +63,7 @@ async function autoreadCommand(sock, chatId, message) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '120363404186001130@newsletter',
-                            newsletterName: 'KnightBot MD',
+                            newsletterName: 'LEE TECHBot MD',
                             serverMessageId: -1
                         }
                     }
@@ -86,7 +86,7 @@ async function autoreadCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363404186001130@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterName: 'LEE TECHBot MD',
                     serverMessageId: -1
                 }
             }
@@ -101,7 +101,7 @@ async function autoreadCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363404186001130@newsletter',
-                    newsletterName: 'KnightBot MD',
+                    newsletterName: 'LEE TECHBot MD',
                     serverMessageId: -1
                 }
             }
@@ -155,7 +155,7 @@ function isBotMentionedInMessage(message, botNumber) {
         }
         
         // Check for bot name mentions (optional, can be customized)
-        const botNames = [global.botname?.toLowerCase(), 'bot', 'knight', 'LEE TECH BOT'];
+        const botNames = [global.botname?.toLowerCase(), 'bot', 'LEE TECH', 'LEE TECH BOT'];
         const words = textContent.toLowerCase().split(/\s+/);
         if (botNames.some(name => words.includes(name))) {
             return true;

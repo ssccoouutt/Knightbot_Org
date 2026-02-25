@@ -5,7 +5,7 @@ const path = require('path');
 async function helpCommand(sock, chatId, message) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'KnightBot-MD'}*  
+   *🤖 ${settings.botName || 'LEE TECHBot-MD'}*  
    Version: *${settings.version || '3.0.0'}*
    by ${settings.botOwner || 'Lee Tech'}
    YT : ${global.ytch}
@@ -238,7 +238,7 @@ Join our channel for updates:`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363404186001130@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterName: 'LEE TECHBot MD',
                         serverMessageId: -1
                     }
                 }
@@ -252,7 +252,7 @@ Join our channel for updates:`;
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363404186001130@newsletter',
-                        newsletterName: 'KnightBot MD by Lee Tech',
+                        newsletterName: 'LEE TECHBot MD by Lee Tech',
                         serverMessageId: -1
                     } 
                 }
